@@ -1,0 +1,129 @@
+1. The Manchester United FC aims to launch its new FinTech project: It involves a platform that enables users to purchase a fan token called MUFC. Users can utilize this token to acquire tickets to the Old Trafford museum, tours, match tickets, and it can also be exchanged for merchandise in the club store. To drive this project forward, they decide to hire two software engineers (one front-end and one back-end). The platform should possess the following features:
+
+The platform must have an user registration system where personal data such as Name, Surname, date of birth, country, city, full address, and other necessary information are stored. Additionally, the user should be able to recover their password if forgotten and must have 2FA. If a user registers with another user's referral code, both will receive 5 MUFC.
+If the user is under 35 years old, they receive 10 MUFC as a welcome gift; if they are older, they receive 5 MUFC.
+Each MUFC has a cost of 3 British pounds. Users can purchase them using a credit card.
+The main dashboard, once the user registers, allows the following actions: 1. Purchase MUFC, 2. Gift MUFC to another user, 3. Obtain their referral code, 4. Check balance, 5. Recharge balance in MUFC, 6. View transaction history.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Red Devils On The Road
+
+Red Devils On The Road is a new transportation venture created by partners of Manchester United. This project is an online platform that facilitates connecting Manchester United fans throughout England to share a vehicle and attend team matches together. The project addresses a specific issue: if there are two fans in Reading who need to travel to Wembley to attend a match, they can connect with an available driver, who is another fan offering their vehicle to take them to Wembley. The project is similar to Blablacar. It must have the following features:
+
+Registration and login with password recovery, captcha, and 2FA/MFA.
+The app is available in all cities in England.
+The price to be paid is calculated per kilometer at 0.01 British pounds per kilometer.
+Payment can be made with credit card, PayPal, and the MUFC token.
+The platform charges a 5% commission for each road trip.
+Registered users can be both drivers and travelers.
+Travelers can rate the trip with 1-5 stars and leave a comment visible on the driver's public profile.
+Drivers can rate their travelers with 1-5 stars and leave a comment visible on the traveler's public profile.
+Each user has a personal profile where they can provide a description of themselves
+ 
+
+
+Reference Project: Blablacar
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. The United Pub
+Daniela is 70 years old and is a friendly elderly fan of Manchester United. After a long and successful professional career, she decides to retire and dedicate the rest of her life to her favorite football club: Manchester United. Her idea is to open a Manchester United-themed pub as part of this venture. This sweet elderly lady has hired you as a software engineer to develop a self-service system with the following features:
+
+The first view displays the pub menu: Beers, wines, coffees, cocktails, teas, snacks. Customers can choose what they want to consume, and the menu is as follows:
+Beers (400ml):
+
+Craft Special (House): 12 UPT
+Craft Red Devil (House): 3 USDT
+Heineken: 3 UPT
+Hop House 13: 9 UPT
+Guinness: 8 UPT
+Red Leffe: 6 UPT
+
+Wines:
+
+Red Devil Wine (House): 3 UPT
+Red Wine: 4 UPT
+White Wine: 4 UPT
+
+Coffees:
+
+Americano: 2 UPT
+Cappuccino: 3 UPT
+Irish Cream Coffee: 3 UPT
+
+Teas:
+
+Green Tea: 2 UPT
+Black Tea: 2 UPT
+Red Tea: 2 UPT
+Apple Tea: 3 UPT
+
+Cocktails:
+
+Caipirinha: 5 UPT
+Classic Mojito: 5 UPT
+Long Island Iced Tea: 7 UPT
+Lemon Daiquiri: 4 UPT
+Orange Daiquiri: 4 UPT
+Strawberry Daiquiri: 4 UPT
+Margarita: 4 UPT
+Black Russian: 4 UPT
+Cuba Libre: 4 UPT
+
+Snacks:
+
+French fries with cheddar cheese: 3 UPT
+Ham croquettes: 6 UPT
+Nachos with cheese: 9 UPT
+Sausages in English sauce: 8 UPT
+Mini chicken sandwich: 5 UPT
+Mini ham and cheese sandwich: 4 UPT
+Mini hamburger: 6 UPT
+
+Once a product from the menu section is chosen, the customer sees the option to choose a product from another category or proceed to the next step.
+In the next step, the customer must make the payment. This Pub only accepts payments with its own token called The United Pub Token (UPT), which can be acquired in this system. Customers have the option to leave a tip and choose the amount.
+The customer has the option to purchase UPT with a credit or debit card, with each UPT costing 1 EUR. For this, they must have a user account in the system where they can view their purchase history, place or cancel a new order, and stay informed about updates.
+If you are building on web 2.0:
+
+The UPT token is a simulated digital currency.
+If you are building on web3:
+
+Build the UPT token.
+Ethereum or your preferred platform is used.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Manchester United Fans Credits
+
+The CEO of the Manchester United FC wishes to launch a new project: a credit platform for the club's members. You have been hired as a software engineer to develop this credit platform with the following features:
+
+User registration (Ensure to collect financial data from the registrant) with login, 2FA/MFA, and password recovery.
+The client will fill out an application questionnaire asking about their marital status, current debts, attaching payroll, ID, answering questions about assets and properties, salaries, among other data you consider important. There are 3 credit levels:
+Bronze Credit: From 100 to 1000 EUR +15% fees
+Silver Credit: From 500 to 5000 EUR +15% fees
+Gold Credit: From 1000 to 10,000 EUR +15% fees
+Based on each client's financial status, they will be assigned the credit level. Once the client applies for the credit, the system must fulfill the following characteristics:
+The client has up to 30 days to repay the credit if they are at the bronze level, 6 months if they are at the silver level, and 12 months if they are at the gold level.
+The system has a counter showing the amount to be paid each day (in case the client wants to pay early), for this, you must divide the fee rate.
+Payment is made by credit card.
+If the client has no debt on the platform, they can request a new credit.
+The fee rate will increase by 1% for every 7 days of delay in payment after the due date.
+The client can check their credit history.
+Silver and gold level clients can pay in two installments, but the fee rate increases to 17%.
+Reference project: vivus.es
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. ManU Social Media
+
+Manchester United aims to launch a new social network for the club's fans. This project should have the following features:
+
+User registration and login with 2FA/MFA and password recovery.
+Users can upload a profile picture, biography, and post text and photos. They can also follow other users.
+The platform has three sections: Manchester United, Manchester United Women, and Community. In the Manchester United section, users can stay updated on results, upcoming matches, statistics, and general news about the men's team. In the Manchester United Women section, they can view the same content for the women's team. The Community section will display the most prominent posts from registered users.
+Think of this project as a fusion between Instagram and Twitter for Manchester United fans.
+
+Reference Projects:
+
+Instagram
+Twitter
+
+Enjoy coding! :)
+
+@blindma1den
